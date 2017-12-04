@@ -3,15 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <title>Hello React Browser</title>
-    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react@16.2.0/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16.2.0/umd/react-dom.development.js"></script>
     <!-- <script crossorigin src="https://unpkg.com/@babel/standalone@7.0.0-beta.34/babel.min.js"></script> -->
     <script crossorigin src="https://unpkg.com/systemjs@0.20.19/dist/system.js"></script>
   </head>
   <body>
     <div id="root"></div>
-  <script>
-  SystemJS.config({
+    <script>
+    SystemJS.config({
   baseURL: 'https://unpkg.com/',
   defaultExtension: true,
   meta: {
@@ -25,12 +25,12 @@
     'plugin-babel': 'systemjs-plugin-babel@latest/plugin-babel.js',
     'systemjs-babel-build':
       'systemjs-plugin-babel@latest/systemjs-babel-browser.js',
-    react: 'react@16/umd/react.development.js',
-    'react-dom': 'react-dom@16/umd/react-dom.development.js'
+    react: 'https://unpkg.com/react@16.2.0/umd/react.development.js',
+    'react-dom':
+      'https://unpkg.com/react-dom@16.2.0/umd/react-dom.development.js'
   },
   transpiler: 'plugin-babel'
 });
-
 SystemJS.import('./src/index.js');
 </script>
   </body>
