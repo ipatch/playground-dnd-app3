@@ -24,7 +24,16 @@ unfortunately I don't know any browser that supports this.
 
 ## Note
 
-The easiest way to see the app in all it's beauty is to install a web server.
+The easiest way to see the app in all it's beauty is to use a web server
+provided by Python.
 
-If you have `Python` installed on your system you can run `python -m
+You can see if Python is installed locally on your system by running the below
+command in favorite Terminal emulator. `python -V`
+
+If you have `Python 2.x` installed on your system you can run `python -m
 SimpleHTTPServer` in the root of the directory you just cloned.
+
+If Python version returned above is 3.X run the below command `python -m
+http.server`
+
+In your favorite browser go to `localhost:8000`
