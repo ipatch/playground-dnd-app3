@@ -25,13 +25,13 @@
     'plugin-babel': 'systemjs-plugin-babel@latest/plugin-babel.js',
     'systemjs-babel-build':
       'systemjs-plugin-babel@latest/systemjs-babel-browser.js',
-    react: 'react@15.3.2/dist/react.min.js',
-    'react-dom': 'react-dom@15.3.2/dist/react-dom.min.js'
+    react: 'react@16/umd/react.development.js',
+    'react-dom': 'react-dom@16/umd/react-dom.development.js'
   },
   transpiler: 'plugin-babel'
 });
 
-SystemJS.import('./src/App.js');
+SystemJS.import('./src/index.js');
 </script>
   </body>
 </html>
