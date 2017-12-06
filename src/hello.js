@@ -3,8 +3,7 @@ import React from 'react';
 const Hello = () => {
   return (
     <div>
-      <h1>Hello from React using JSX.</h1>
-      <h2>I am a stateless functional based component.</h2>
+      <h1>Just say no to Node.js</h1>
     </div>
   );
 };
