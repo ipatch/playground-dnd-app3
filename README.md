@@ -1,7 +1,7 @@
 # in-browser React & friends :-)
 
 Basically I created this project to see if I could create a simple React app
-without using Node.js or a build too / pipleline.
+without using Node.js or a build tool / pipleline.
 
 ## Install
 
